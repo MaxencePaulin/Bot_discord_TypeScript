@@ -17,9 +17,9 @@ touch .env
 ```bash
 # .env
 botToken={votre token de bot discord}
-guildId={Votre discord principal ou sera le bot (vous en mettez qu'un seul et ca fonctionnera)}
+guildId={Votre discord principal où sera le bot (vous en mettez qu'un seul et ça fonctionnera)}
 clientId={l'id discord du bot (pas le token)}
-environment=debug (si vous souhaiter le modifier)
+environment=debug (si vous souhaitez le modifier)
 ```
 
 ## Lancement
@@ -30,13 +30,13 @@ npm run start
 
 Et maintenant regarder tout simplement votre bot sur discord !
 
-Vous pouvez aussi tout simplement utiliser le mien fait avec amour, pour l'ajouter à votre serveur discord:
+Vous pouvez aussi tout simplement utiliser le mien, fait avec amour, pour l'ajouter à votre serveur discord :
 
 https://discord.com/api/oauth2/authorize?client_id=995456528473661451&permissions=8&scope=bot%20applications.commands
 
-Je précise que le bot est hébergé gratuitement et qu'il peut être off, ce n'est qu'un projet personnel pas une production.
+Je précise que le bot est hébergé gratuitement et qu'il peut être éteint, ce n'est qu'un projet personnel, pas une production.
 
-Pour plus d'informations sur les commandes utilisez la commande `/help` sur votre serveur discord !
+Pour plus d'informations sur les commandes, utilisez la commande `/help` sur votre serveur discord !
 
 ps : vous pouvez aussi le build en JavaScript à l'aide de la commande `npm run build` et lancer le bot avec `npm run start:prod`
 
