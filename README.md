@@ -28,7 +28,7 @@ environment=debug (si vous souhaitez le modifier)
 npm run start
 ```
 
-Et maintenant regarder tout simplement votre bot sur discord !
+Et maintenant regardez tout simplement votre bot sur discord !
 
 Vous pouvez aussi tout simplement utiliser le mien, fait avec amour, pour l'ajouter à votre serveur discord :
 
