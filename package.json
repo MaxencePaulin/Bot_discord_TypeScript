@@ -1,0 +1,37 @@
+{
+    "name": "type_script_bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "start:dev": "ts-node-dev src/index.ts",
+        "start:prod": "node dist/index.js",
+        "build": "tsc",
+        "watch": "tsc -w"
+    },
+    "engines": {
+        "node": "18.x"
+    },
+    "keywords": [],
+    "author": "Maxence PAULIN",
+    "license": "ISC",
+    "repository": "https://github.com/MaxencePaulin/Bot_discord_TypeScript.git/",
+    "dependencies": {
+        "axios": "^1.1.3",
+        "discord-player": "^5.3.2",
+        "discord.js": "^14.6.0",
+        "dotenv": "^16.0.3",
+        "ffmpeg-static": "^5.1.0",
+        "glob": "^7.2.0",
+        "npm": "^8.19.2",
+        "opusscript": "^0.0.8"
+    },
+    "devDependencies": {
+        "@types/glob": "^7.2.0",
+        "@types/node": "^18.11.9",
+        "ts-node": "^10.9.1",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^4.9.3"
+    }
+}
