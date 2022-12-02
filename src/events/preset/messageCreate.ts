@@ -17,7 +17,7 @@ export default new Event("messageCreate", async (message) => {
             .setTitle("__Liste des commandes__")
             // .setURL("https://discord.js.org/")
             .setAuthor({
-                name: "Lobot",
+                name: client.user.username,
                 iconURL:
                     message.guild.iconURL() || client.user.avatarURL(),
             })

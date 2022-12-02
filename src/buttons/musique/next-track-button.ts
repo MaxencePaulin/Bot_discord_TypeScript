@@ -63,7 +63,7 @@ export default new Button({
                         .setColor("#6f5ef7")
                         .setTitle("__Bouton skip :__")
                         .setAuthor({
-                            name: "Lobot",
+                            name: client.user.username,
                             iconURL:
                                 interaction.guild.iconURL() || client.user.avatarURL(),
                         })

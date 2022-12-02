@@ -14,7 +14,7 @@ export default new Command({
             .setTitle("__Liste des commandes__")
             // .setURL("https://discord.js.org/")
             .setAuthor({
-                name: "Lobot",
+                name: client.user.username,
                 iconURL:
                     interaction.guild.iconURL() || client.user.avatarURL(),
             })

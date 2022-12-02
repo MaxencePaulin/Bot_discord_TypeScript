@@ -33,7 +33,7 @@ export default new Command({
             .setColor("#6f5ef7")
             .setTitle("__Commande /np :__")
             .setAuthor({
-                name: "Lobot",
+                name: client.user.username,
                 iconURL:
                     interaction.guild.iconURL() || client.user.avatarURL(),
             })
